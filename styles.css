@@ -14,12 +14,17 @@ html, body{
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
 .sidebar{
+    border: 2px;
+    border-radius: 120px;
     /* pxالعرض هنا يجب ان يكون 120 */
 }
 
+
 .header{
+    height: 80px;
     /* pxالطول هنا يجب ان يكون 80 */
 }
+
 
 .main{
 
@@ -30,6 +35,11 @@ a{
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
 
+a:hover {
+    background-color: aqua;
+
+}
+
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
@@ -37,12 +47,12 @@ a{
 
 
 h1{
-    margin: 0;
+    margin: 3;
     margin-right: 5px;
 }
 
 h2{
-    margin: 0;
+    margin: 3;
     margin-left: 5px;
 }
 
